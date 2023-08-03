@@ -1,20 +1,24 @@
-lockfileVersion: 5.3
+lockfileVersion: '6.0'
 
-specifiers:
-  dotenv: ^14.3.2
-  minimist: ^1.2.5
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
-  dotenv: 14.3.2
-  minimist: 1.2.5
+  dotenv:
+    specifier: ^14.3.2
+    version: 14.3.2
+  minimist:
+    specifier: ^1.2.5
+    version: 1.2.6
 
 packages:
 
-  /dotenv/14.3.2:
+  /dotenv@14.3.2:
     resolution: {integrity: sha512-vwEppIphpFdvaMCaHfCEv9IgwcxMljMw2TnAQBB4VWPvzXQLTb82jwmdOKzlEVUL3gNFT4l4TPKO+Bn+sqcrVQ==}
     engines: {node: '>=12'}
     dev: false
 
-  /minimist/1.2.5:
-    resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
+  /minimist@1.2.6:
+    resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
     dev: false
